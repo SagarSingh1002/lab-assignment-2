@@ -55,7 +55,7 @@ exports.bookSeat = async (req, res) => {
   }
 };
 
-// get users details
+// get users details for booking
 exports.getUserBookingsDetails = async (req, res) => {
   const { userId } = req.user;
 
